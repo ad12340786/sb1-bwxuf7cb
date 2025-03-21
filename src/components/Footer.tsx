@@ -1,8 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { Github, Twitter, Facebook, Instagram } from 'lucide-react';
 
 const Footer = () => {
+  const location = useLocation();
+
+  const handleHomeClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (location.pathname === '/') {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      setTimeout(() => {
+        window.location.reload();
+      }, 500);
+    }
+  };
+
   return (
     <footer className="bg-gray-900 text-white mt-auto">
       <div className="container mx-auto px-4 py-8">
@@ -14,7 +26,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              <li><Link to="/" className="text-gray-400 hover:text-white transition-colors">Home</Link></li>
+              <li><Link to="/" onClick={handleHomeClick} className="text-gray-400 hover:text-white transition-colors">Home</Link></li>
               <li><Link to="/help" className="text-gray-400 hover:text-white transition-colors">How to Use</Link></li>
               <li><Link to="/about" className="text-gray-400 hover:text-white transition-colors">About Us</Link></li>
               <li><Link to="/contact" className="text-gray-400 hover:text-white transition-colors">Contact</Link></li>
