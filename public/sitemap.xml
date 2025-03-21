@@ -1,45 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://tierlistmaker.xyz/</loc>
-    <lastmod>2025-03-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://tierlistmaker.xyz/create/games</loc>
-    <lastmod>2025-03-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://tierlistmaker.xyz/help</loc>
-    <lastmod>2025-03-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://tierlistmaker.xyz/about</loc>
-    <lastmod>2025-03-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://tierlistmaker.xyz/contact</loc>
-    <lastmod>2025-03-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://tierlistmaker.xyz/privacy</loc>
-    <lastmod>2025-03-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://tierlistmaker.xyz/dmca</loc>
-    <lastmod>2025-03-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created by tier list maker-->
+
+
+<url>
+  <loc>https://tierlistmaker.xyz/</loc>
+  <lastmod>2025-03-21T13:35:43+00:00</lastmod>
+</url>
+
+
 </urlset>
