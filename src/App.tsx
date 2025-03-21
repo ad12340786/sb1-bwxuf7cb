@@ -10,6 +10,7 @@ import DMCA from './pages/DMCA';
 import Contact from './pages/Contact';
 import Help from './pages/Help';
 import TierListMaker from './pages/TierListMaker';
+import NotFound from './pages/NotFound';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
               <Route path="/dmca" element={<DMCA />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/help" element={<Help />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </AnimatePresence>
         </main>
